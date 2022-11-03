@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Frontend Mentor | News homepage</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="grid-container">
+        <!--NAVBAR-->
+        <div class="navbar">
+          <div class="logo">
+            <img src="./assets/images/logo.svg" alt="logo" />
+          </div>
+
+          <button class="menu" id="menu">
+            <img src="./assets/images/icon-menu.svg" alt="menu" />
+          </button>
+          <button class="menuClose" id="menuClose">
+            <img src="./assets/images/icon-menu-close.svg" alt="menuClose" />
+          </button>
+
+          <div class="navlinks" id="navlinks">
+            <a href="">Home</a>
+            <a href="">New</a>
+            <a href="">Popular</a>
+            <a href="">Trending</a>
+            <a href="">Categories</a>
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="photo" />
+        </div>
+        <div class="item4">
+          <div><h2>New</h2></div>
+          <div>
+            <a href="">Hydrogen VS Electric Cars</a>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <hr />
+          <div>
+            <a href="">The Downsides of AI Artistry</a>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+
+          <hr />
+          <div>
+            <a href="">Is VC Funding Drying Up?</a>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+        <div class="item5">The Bright Future of Web 3.0?</div>
+        <div class="item6">
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <div><button>READ MORE</button></div>
+        </div>
+        <div class="item7">
+          <div>
+            <img src="./assets/images/image-retro-pcs.jpg" alt="retropc" />
+          </div>
+          <div>
+            <h4>01</h4>
+            <a href="">Reviving Retro PCs</a>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="item8">
+          <div>
+            <img src="./assets/images/image-top-laptops.jpg" alt="retropc" />
+          </div>
+          <div>
+            <h4>02</h4>
+            <a href="">Top 10 Laptops of 2022</a>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="item9">
+          <div>
+            <img src="./assets/images/image-gaming-growth.jpg" alt="retropc" />
+          </div>
+          <div>
+            <h4>03</h4>
+            <a href="">The Growth of Gaming </a>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://randomdomainforme.netlify.app/">Simone</a>.
+    </div>
+
+    <script>
+      const menu = document.getElementById("menu");
+      const navlinks = document.getElementById("navlinks");
+      const menuClose = document.getElementById("menuClose");
+
+      menu.addEventListener("click", () => {
+        menuClose.classList.toggle("show");
+        navlinks.classList.toggle("show");
+        menu.classList.toggle('out');
+      });
+
+      menuClose.addEventListener("click", () => {
+        menuClose.classList.toggle("show");
+        navlinks.classList.toggle("show");
+        menu.classList.toggle('out');
+      });
+    </script>
+  </body>
+</html>
