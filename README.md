@@ -2,4 +2,4 @@
 
 This is a Challenge from FrontEndMentor
 
-LINK newshomeproject.netlify.app
+LINK [newshomeproject.netlify.app](newshomeproject.netlify.app)
