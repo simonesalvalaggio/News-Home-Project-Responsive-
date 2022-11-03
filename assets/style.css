@@ -220,6 +220,7 @@ h2 {
 .menuClose:hover{
   background: transparent;
 }
+
 /* RESPONSIVE MOBILE */
 @media (max-width: 800px) {
   .grid-container {
@@ -275,7 +276,7 @@ h2 {
     height: 100%;
     width: 60%;
     padding-top: 30%;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     background-color: #fff;
@@ -299,6 +300,9 @@ h2 {
   .menuClose{
     display: none;
     z-index:9;
+    position: fixed;
+    right:0;
+    top:0;
   }
   .menuClose.show{
     display: block;
