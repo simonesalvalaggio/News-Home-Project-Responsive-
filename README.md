@@ -1,1 +1,5 @@
-# News-Home-Project-Responsive-
+# NEWS HOME PROJECT- RESPONSIVE
+
+This is a Challenge from FrontEndMentor
+
+LINK newshomeproject.netlify.app
