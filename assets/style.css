@@ -63,6 +63,7 @@ a {
   flex-wrap: wrap;
 }
 .navlinks a {
+  color: hsl(240, 100%, 5%);
   padding-left: 10px;
 }
 .navlinks {
@@ -219,6 +220,14 @@ h2 {
 }
 .menuClose:hover{
   background: transparent;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /* RESPONSIVE MOBILE */
